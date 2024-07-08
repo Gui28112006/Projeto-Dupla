@@ -97,7 +97,7 @@ function Pag2000() {
         <div className="inside-box2">
           <section>
             <div className='divs'>
-              <img src="src/assets/imgs/2000.png" alt="2000 - 2005" />
+              <img src="./imgs/2000.png" alt="2000 - 2005" />
               <Link className='txts' to="/2000-2005">2000 - 2005</Link>
             </div>
             <div className='divs'>
