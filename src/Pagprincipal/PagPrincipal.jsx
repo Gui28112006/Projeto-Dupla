@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './PagPrincipal.css';
+import img from '../assets/imgs/2000.png'
 
 function mostraTudo(dados) {
   const tabela = document.querySelector("#tabela");
@@ -101,7 +102,7 @@ function Pag1() {
         <div className="inside-box2">
           <section>
             <div className='divs'>
-              <img src="../assets/imgs/2000.png" alt="2000 - 2005" />
+              <img src={img} alt="2000 - 2005" />
               <Link className='txts' to="/2000-2005">2000 - 2005</Link>
             </div>
             <div className='divs'>
