@@ -71,7 +71,7 @@ function Pag2011() {
   const [dados, setDados] = useState([]);
 
   useEffect(() => {
-    fetch('public/2011a2015.json')
+    fetch('./2011a2015.json')
       .then(res => res.json())
       .then(data => {
         // Ordena os dados em ordem alfabética pelo ano
