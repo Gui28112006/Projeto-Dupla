@@ -71,7 +71,7 @@ function Pag2000() {
   const [dados, setDados] = useState([]);
 
   useEffect(() => {
-    fetch('public/2000a2005.json')
+    fetch('./2000a2005.json')
       .then(res => res.json())
       .then(data => {
         // Ordena os dados em ordem alfabética pelo ano
