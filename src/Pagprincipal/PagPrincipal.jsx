@@ -101,15 +101,15 @@ function Pag1() {
         <div className="inside-box2">
           <section>
             <div className='divs'>
-              <img src="src/assets/imgs/2000.png" alt="2000 - 2005" />
+              <img src="../assets/imgs/2000.png" alt="2000 - 2005" />
               <Link className='txts' to="/2000-2005">2000 - 2005</Link>
             </div>
             <div className='divs'>
-              <img src="src/assets/imgs/2006.png" alt="2006 - 2010" />
+              <img src="../assets/imgs/2006.png" alt="2006 - 2010" />
               <Link className='txts' to="/2006-2010">2006 - 2010</Link>
             </div>
             <div className='divs'>
-              <img src="src/assets/imgs/2011.png" alt="2011 - 2015" />
+              <img src="../assets/imgs/2011.png" alt="2011 - 2015" />
               <Link className='txts' to="/2011-2015">2011 - 2015</Link>
             </div>
           </section>
